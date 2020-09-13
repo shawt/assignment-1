@@ -1,3 +1,9 @@
 def on_forever():
-    pass
+    basic.show_leds("""
+        # . . . .
+        . # . . .
+        . # # . .
+        . # . . .
+        # . . . .
+        """)
 basic.forever(on_forever)
